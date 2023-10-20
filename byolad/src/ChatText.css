@@ -1,0 +1,7 @@
+.chat-text {
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    justify-content: left;
+    /* width: 100%; */
+}
