@@ -1,0 +1,88 @@
+* {
+  background-color: #282c34;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 15vmin;
+  pointer-events: none;
+  border-radius: 50%;
+}
+
+.App-footer {
+  min-height: 10vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.App-header {
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.App-body {
+  color: white;
+  font-size: calc(8px + 2vmin);
+}
+
+.chat-box {
+  min-height: 10vh;
+  width: 85%;
+}
+
+.chat-bar {
+  background-color: #717171;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border-radius: 60px;
+  padding: 10px 10px;
+}
+
+.chat-bar input{
+  background: transparent;
+  flex: 1;
+  border: 0;
+  outline: none;
+  padding: 5px 20px;
+  font-size: 16px;
+  color: #EFEFEF;
+}
+
+.chat-bar button img {
+  width: 25px;
+}
+
+.chat-bar button {
+  background: #000000;
+  border: 0;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+::placeholder {
+  color: #AAAAAA;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
